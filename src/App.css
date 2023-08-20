@@ -1,3 +1,23 @@
-.App {
-  text-align: center;
+.input_container, .errors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+label, input {
+  margin-right: 1.5rem;
+}
+
+input:focus {
+  background-color: lightblue;
+}
+
+button {
+  color: #FFF;
+  background-color: blue;
+  width: 14vw;
+  height: 3rem;
+  margin: 0 45vw 3rem;
+
 }
